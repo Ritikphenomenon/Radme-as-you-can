@@ -37,12 +37,20 @@ Menu options available:
 Each function in the program is described below:
 
 > Build(): This function initializes student details, where the user is first asked for the number of students to enter, and then the user can enter the data of each student respectively.
+
 > Insert(): This function helps in inserting a new student detail into the current table.
+
 > DeleteRecord(): This function takes the input of the student ID from the user and searches for the student in the record. If the student is found, then it passes the index of the student to DeleteIndex() function for deleting the student record.
+
 > SearchRecord(): This function searches for the details of a student in the record using the student ID taken as an input from the user. If the student is found, then it displays the record of the student on the screen.
+
 > DisplayRecord(): This function helps in displaying the details of all students in the record.
+
 > UpdateRecord(): This function searches for a student in the record using the student ID taken as an input from the user. If the student is found, then it updates the new details of the student that are input by the user.
+
 > ShowMenu(): This function displays all available options of the project for the user. From here, the user can navigate to all functions. When the user selects an option from the menu, the program calls a function that performs the selected operation. Each function performs the required operation on the array of structures.
+
+
 Compiling and Running the Program:
 
 To run the program in a local system, you need a C++ compiler installed on your computer. Follow the steps below to compile and run the program:
