@@ -18,27 +18,21 @@ The program uses a flag variable to indicate whether a student record with the g
 
 Working Description :
 
-It is overall summary Where Admin can Build The Table of student data and maximum 20 students can 
-only be stored:
+"This is an overall summary of the program where an admin can build a table of student data, with a maximum of 20 students that can be stored. The following functions are available for the admin to manage the student records:
 
-1.Admin Can entered Data like Name, Student Id, Branch, Batch and Age of the student.
-a)build():This functions help in intialising students details in which admin is first asked for number of students to enter and than admin can enter the data of
-student respectively.
-b)Insert(): this functions help in inserting new student detail  in current table.
+Build(): This function helps in initializing student details, where the admin is first asked for the number of students to enter, and then the admin can enter the data of each student respectively.
 
-c)deleteRecord():This works  with help of another function , which is deleteIndex().  in this first deleteRecord() takes the
-input of student id from the admin and search the student in the record . if the student is found than it passes the index of student in 
-deleteIndex() functions for deleting the student record.
+Insert(): This function helps in inserting a new student detail into the current table.
 
-d)searchRecord():This functions search the details of a student in the record using student id which is taken as an input from admin and if the student is
-found then is display the record of student in the screen.
+DeleteRecord(): This works with the help of another function, which is DeleteIndex(). First, DeleteRecord() takes the input of the student ID from the admin and searches for the student in the record. If the student is found, then it passes the index of the student to DeleteIndex() function for deleting the student record.
 
-e)Displayrecord():this functions helps in displaying details of all student in the record.
+SearchRecord(): This function searches for the details of a student in the record using the student ID taken as an input from the admin. If the student is found, then it displays the record of the student on the screen.
 
-f)updateRecord(): This functions search a student in the record using student id which is taken as an input from admin and if the student is
-found then updating new details of the student which is input by the admin.
+DisplayRecord(): This function helps in displaying the details of all students in the record.
 
-g) showMenu(): it display the all available options of the project for the admin. from here admin can navigate to all functions, it is one of the main functons of the project.When the user selects an option from the menu, the program calls a function that performs the selected operation. Each function performs the required operation on the array of structures.
+UpdateRecord(): This function searches for a student in the record using the student ID taken as an input from the admin. If the student is found, then it updates the new details of the student that are input by the admin.
+
+ShowMenu(): It displays all available options of the project for the admin. From here, the admin can navigate to all functions. This is one of the main functions of the project. When the user selects an option from the menu, the program calls a function that performs the selected operation. Each function performs the required operation on the array of structures."
 
 
 Prerequisite to run the program:
