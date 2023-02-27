@@ -49,6 +49,11 @@ Once the program is compiled successfully, an executable file will be generated 
 
 Run the program by entering the command './a.out' (on Linux or macOS) or 'a.exe' (on Windows). The program will start running, and you can interact with it using the console input and output.
 
+Screenshot: 
+
+![image](https://user-images.githubusercontent.com/97295964/221498481-5025a4ec-6620-4c09-87ba-971fde4f2b9e.png)
+
+
 
 
 
