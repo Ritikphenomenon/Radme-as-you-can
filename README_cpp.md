@@ -96,7 +96,20 @@ Once the program is compiled successfully, an executable file will be generated 
 
 Run the program by entering the command './a.out' (on Linux or macOS) or 'a.exe' (on Windows). The program will start running, and you can interact with it using the console input and output.
 
+Bug to Debug :
 
+1.This program have duplicate id for different Name and branch .you have to debug it to , that it can store unique id for
+   each student.
+   
+2.There is Bug in to search a specific student on basis of there id.
+
+3.There is Bug when we try to update the record of any student and this program is not updating the record of any student, which is bug.
+
+4.There is Bug while displaying the record of the students which is not in a proper order.
+
+5.When we try to Displaying record of the student, after displaying program terminate, which is bug.
+
+6.Here Bug is that record of student is not deleted in a proper manner.
 
 
 
